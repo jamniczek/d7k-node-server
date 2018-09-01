@@ -1,0 +1,19 @@
+{
+  "name": "dialogflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maciej Misiak",
+  "license": "MIT",
+  "scripts": {
+    "start": "GOOGLE_APPLICATION_CREDENTIALS='./recommend-e6b52c1b0f5a.json' node src/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^1.7.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dialogflow": "^0.6.0",
+    "express": "^4.16.3",
+    "uuid": "^3.3.2"
+  }
+}
